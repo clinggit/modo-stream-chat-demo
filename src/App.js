@@ -19,7 +19,7 @@ chatClient.setUser(
 
 const channel = chatClient.channel('messaging', 'godevs', {
   // add as many custom fields as you'd like
-  image: 'https://cdn.chrisshort.net/testing-certificate-chains-in-go/GOPHER_MIC_DROP.png',
+  image: 'https://static.modolabs.com/cling/anthropology.png',
   name: 'Talk about Anthropology',
 });
 
