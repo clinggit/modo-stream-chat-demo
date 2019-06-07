@@ -6,7 +6,7 @@ import { StreamChat } from 'stream-chat';
 import 'stream-chat-react/dist/css/index.css';
 
 const chatClient = new StreamChat('brbgs2r8pfvk');
-const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoidHdpbGlnaHQtbGFiLTIifQ.9CrUddtFnRQjzsh3wlPj-sm3nCxc5VG7h7v6KqI92xI';
+//const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoidHdpbGlnaHQtbGFiLTIifQ.9CrUddtFnRQjzsh3wlPj-sm3nCxc5VG7h7v6KqI92xI';
 
 chatClient.setUser(
   {
@@ -14,13 +14,13 @@ chatClient.setUser(
        name: 'Micaela',
        image: 'https://getstream.io/random_svg/?id=micaela&name=Micaela'
   },
-  chatClient.devToken('john'),
+  chatClient.devToken('micaela'),
 );
 
 const channel = chatClient.channel('messaging', 'godevs', {
   // add as many custom fields as you'd like
   image: 'https://cdn.chrisshort.net/testing-certificate-chains-in-go/GOPHER_MIC_DROP.png',
-  name: 'Talk about Go',
+  name: 'Talk about Anthropology',
 });
 
 const App = () => (
