@@ -5,8 +5,8 @@ import { StreamChat } from 'stream-chat';
 
 import 'stream-chat-react/dist/css/index.css';
 
-const chatClient = new StreamChat('brbgs2r8pfvk');
-const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMH0.mEDR92MeUlFfQtx0i_3k_9GGTD7yT-EEV-GaFlsttwc';
+const chatClient = new StreamChat('qk4nn7rpcn75');
+const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoidHdpbGlnaHQtbGFiLTIifQ.9CrUddtFnRQjzsh3wlPj-sm3nCxc5VG7h7v6KqI92xI';
 
 chatClient.setUser(
   {
