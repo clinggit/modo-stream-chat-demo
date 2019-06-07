@@ -5,16 +5,16 @@ import { StreamChat } from 'stream-chat';
 
 import 'stream-chat-react/dist/css/index.css';
 
-const chatClient = new StreamChat('qk4nn7rpcn75');
+const chatClient = new StreamChat('brbgs2r8pfvk');
 const userToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoidHdpbGlnaHQtbGFiLTIifQ.9CrUddtFnRQjzsh3wlPj-sm3nCxc5VG7h7v6KqI92xI';
 
 chatClient.setUser(
   {
-       id: 'twilight-lab-2',
-       name: 'Twilight lab',
-       image: 'https://getstream.io/random_svg/?id=twilight-lab-2&name=Twilight+lab'
+       id: 'micaela',
+       name: 'Micaela',
+       image: 'https://getstream.io/random_svg/?id=micaela&name=Micaela'
   },
-  userToken,
+  chatClient.devToken('john'),
 );
 
 const channel = chatClient.channel('messaging', 'godevs', {
