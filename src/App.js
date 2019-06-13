@@ -17,7 +17,7 @@ chatClient.setUser(
   chatClient.devToken('micaela'),
 );
 
-const channel = chatClient.channel('messaging', 'godevs', {
+const channel = chatClient.channel('messaging', 'anthropology', {
   // add as many custom fields as you'd like
   image: 'https://static.modolabs.com/cling/anthropology.png',
   name: 'Talk about Anthropology',
