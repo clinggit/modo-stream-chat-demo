@@ -25,6 +25,7 @@ const channel = chatClient.channel('messaging', 'godevs', {
 
 const App = () => (
   <Chat client={chatClient} theme={'messaging light'}>
+    <ChannelList />
     <Channel channel={channel}>
       <Window>
         <ChannelHeader />
