@@ -23,10 +23,17 @@ const channel = chatClient.channel('messaging', 'anthropology', {
   name: 'Talk about Anthropology',
 });
 
+const filters = { type: 'messaging' };
+const sort = { last_message_at: -1 };
+const channels = chatClient.queryChannels(filters, sort);
+
 const App = () => (
   <Chat client={chatClient} theme={'messaging light'}>
-    <ChannelList />
-    <Channel channel={channel}>
+    <ChannelList
+      filters={filters}
+      sort={sort}
+    />
+    <Channel>
       <Window>
         <ChannelHeader />
         <MessageList />
